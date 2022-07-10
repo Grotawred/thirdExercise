@@ -22,11 +22,11 @@ public class Main {
         }
         int i = 0;
         int min = i;
-        for(int j = i;j< arr.length;j++){
-            if(arr[min].length()<arr[j].length()) {
+        for(int j = i;j< reverseArray.length;j++){
+            if(reverseArray[min].length()<reverseArray[j].length()) {
                 min = j;
             }
         }
-        System.out.println(arr[min]);
+        System.out.println(reverseArray[min]);
     }
 }
